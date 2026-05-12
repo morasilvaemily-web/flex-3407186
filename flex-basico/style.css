@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
     color: black;
 }
 h1{
     font-size: 24px;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly ;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    border: black solid 3px;
+}
+.item{
+    display:block;
+    width:200px;
+    height: 100px;
+    background-color: rgb(255, 0, 191);
+    border: black solid 1px ;
 }
