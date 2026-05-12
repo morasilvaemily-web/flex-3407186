@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 300px;
+    background-color: black;
+    color: white;
+    
+
+
+}
+.navbar_logo{
+    display: flex;
+    flex-direction: row;
+    color: oklch(82.656% 0.14304 332.885);
+    gap:50px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.navbar_logo--imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.navbar_opciones{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    font-size: 18px;
+        font-weight: bold;
+}
+.navbar_opciones a{
+
+    text-decoration: none;
+    color: rgb(218, 169, 247);
+}
+
+
+.navbar_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20;
+    align-items: center;
+
+}
+.navbar_login img{
+     width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.navbar_login a{
+     text-decoration: none;
+    color: rgb(218, 169, 247);
+    font-weight: bold;
+    align-items: center;
+}
